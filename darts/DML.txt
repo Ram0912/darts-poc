@@ -1,0 +1,32 @@
+SELECT * from student_student
+
+insert into student_student('role_number', 'name', 'addrress') values('1', 'Ram', 'chennai');
+insert into student_student('role_number', 'name', 'addrress') values('2', 'Siva', 'chennai');
+insert into student_student('role_number', 'name', 'addrress') values('3', 'Chandran', 'Madurai');
+
+select * from student_subject
+
+insert into student_subject('sub_id', 'subject_name') values('1', 'English');
+insert into student_subject('sub_id', 'subject_name') values('2', 'language');
+insert into student_subject('sub_id', 'subject_name') values('3', 'Maths');
+insert into student_subject('sub_id', 'subject_name') values('4', 'Social');
+insert into student_subject('sub_id', 'subject_name') values('5', 'Science');
+
+
+select * from student_marks
+
+insert into student_marks('student_id', 'subject_id', 'marks') values('1', '1', '55')
+insert into student_marks('student_id', 'subject_id', 'marks') values('1', '2', '95')
+insert into student_marks('student_id', 'subject_id', 'marks') values('1', '3', '85')
+insert into student_marks('student_id', 'subject_id', 'marks') values('1', '4', '98')
+insert into student_marks('student_id', 'subject_id', 'marks') values('1', '5', '100');
+insert into student_marks('student_id', 'subject_id', 'marks') values('2', '1', '72');
+insert into student_marks('student_id', 'subject_id', 'marks') values('2', '2', '67');
+insert into student_marks('student_id', 'subject_id', 'marks') values('2', '3', '85');
+insert into student_marks('student_id', 'subject_id', 'marks') values('2', '4', '88');
+insert into student_marks('student_id', 'subject_id', 'marks') values('2', '5', '89');
+insert into student_marks('student_id', 'subject_id', 'marks') values('3', '1', '78');
+insert into student_marks('student_id', 'subject_id', 'marks') values('3', '2', '90');
+insert into student_marks('student_id', 'subject_id', 'marks') values('3', '3', '85');
+insert into student_marks('student_id', 'subject_id', 'marks') values('3', '4', '77');
+insert into student_marks('student_id', 'subject_id', 'marks') values('3', '5', '62');
